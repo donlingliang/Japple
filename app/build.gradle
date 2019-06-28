@@ -8,7 +8,7 @@ android {
     compileSdkVersion 28
     defaultConfig {
         applicationId "com.don.japple"
-        minSdkVersion 21
+        minSdkVersion 26
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
@@ -32,6 +32,7 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
-    // mapbox
+
     implementation 'com.mapbox.mapboxsdk:mapbox-android-sdk:8.1.0'
+    implementation 'com.mapbox.mapboxsdk:mapbox-android-navigation:0.40.0'
 }
